@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-color:#000;} 
+
+.sitecontainer{
+	
+	width:985px;
+	margin:0 auto;
+	
+	
+}
+
+.column1{
+
+width:40%;
+	Text-align:right;
+	float:left;
+	color:#000;
+	text-align:left;
+	margin-left:10px;
+	height:800px;
+	margin-top:10px;
+	
+}
+
+.column2{
+
+width:30%;
+	Text-align:right;
+	float:left;
+	color:#000;
+	text-align:left;
+	margin-left:150px;
+	height:150px;
+	margin-top:200px;
+	
+}
+
+.sensors{
+	
+	
+}

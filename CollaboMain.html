@@ -1,0 +1,124 @@
+<HTML>
+<head>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.4.1");</script>
+<script type="text/javascript" src ="//goodwin.drexel.edu/isensor/apps/games/game4/scriphomepage2.js"></script>
+<style type="text/css">
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+height:70%;
+background-color:#444;
+border-width:3px;
+border-style:solid;
+border-color:#333;
+}
+
+
+.Right
+{
+position:absolute;
+right:0px;
+width:70%;
+height:70%;
+background-color:#444;
+border-width:3px;
+border-style:solid;
+border-color:#333;
+}
+
+
+.Left
+{
+position:absolute;
+left:0px;
+width:29.5%;
+height:70%;
+background-color:#444;
+border-width:3px;
+border-style:solid;
+border-color:#333;
+}
+
+.body
+{
+
+background-color:#222;
+}
+
+.datespan
+{
+
+font-size:9;
+}
+
+
+
+.messagediv
+{
+
+background-color:#999;
+border-style:solid;
+border-width:5px;
+border-color:#777;
+}
+
+.noticediv
+{
+
+background-color:#333;
+border-style:solid;
+border-width:5px;
+border-color:#777;
+height:70%;
+overflow:scroll;
+}
+
+
+.label
+{
+
+background-color:#555;
+border-style:solid;
+border-width:3px;
+border-color:#666;
+}
+
+</style>
+
+</head>
+<body class="body">
+<div id="center" class ="center">
+<div id="Qustionwrapper"  class ="Left">
+<div id="questionwrwpper">
+<div id ="questiondiv" class = "messagediv">
+The Question will be loaded here
+</div>
+<label id ="timelabel">Time</label> <Button id="Next">Move to Next</Button>
+</div>
+<div id="answer">
+<textarea id="txtanswer" rows="4" cols="50"> 
+</textarea>
+<div id="submit">
+<Button id="answerbutton">Submit the answer</Button>
+</div>
+</div>
+</div>
+<div class ="Right">
+<div id="notice">
+<div id="lbl_question" class='label'>Message Board</div>
+<div id="submitMessage">
+<textarea id ="newmessage" rows="4" cols="50">
+</textarea>
+<Button id="messagebutton">Post The Message</Button>
+</div>
+<div id="messages" class="noticediv">
+</div>
+</div>
+</div>
+</div>
+</body>
+</HTML>
+
